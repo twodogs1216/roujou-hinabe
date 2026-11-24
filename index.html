@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14100e">
+  <meta name="robots" content="noindex">
+  <meta name="description" content="樓上 重慶火鍋。花椒香る本場・重慶の火鍋を東京で。火鍋の単品料理、食べ放題コース、小岩・上野・池袋・高田馬場の店舗情報と電話予約のご案内。">
+  <title>樓上 重慶火鍋｜東京の重慶火鍋専門店</title>
+  <link rel="icon" href="assets/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600&family=Noto+Serif+JP:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script src="site.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <dialog class="intro" id="intro" aria-label="樓上 重慶火鍋の開幕演出">
+    <div class="intro-door intro-door-left" aria-hidden="true"></div>
+    <div class="intro-door intro-door-right" aria-hidden="true"></div>
+    <div class="intro-emblem">
+      <img src="assets/brand-mark.png" alt="樓上" width="209" height="482">
+      <span>重慶火鍋</span>
+    </div>
+    <button type="button" class="intro-skip">演出をスキップ</button>
+  </dialog>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="樓上 重慶火鍋 トップ">
+        <img src="assets/brand-horizontal.png" alt="" width="412" height="205">
+        <span>重慶火鍋</span>
+      </a>
+      <nav class="desktop-nav" aria-label="主なメニュー">
+        <a href="#hinabe">樓上について</a>
+        <a href="#menu">お品書き</a>
+        <a href="#courses">食べ放題</a>
+        <a href="#shops">店舗案内</a>
+      </nav>
+      <a class="button header-book" href="#shops" data-reserve><span aria-hidden="true">☎</span> 電話予約</a>
+      <details class="mobile-nav">
+        <summary aria-label="メニュー"><span></span><span></span></summary>
+        <nav aria-label="携帯端末用メニュー">
+          <a href="#hinabe">樓上について</a>
+          <a href="#menu">お品書き</a>
+          <a href="#courses">食べ放題</a>
+          <a href="#shops">店舗案内</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-photo" src="assets/chongqing-pot.webp" alt="" fetchpriority="high" width="1500" height="1000">
+      <div class="hero-content frame">
+        <p class="eyebrow"><i></i> 重慶火鍋専門店</p>
+        <h1 id="hero-title">湯気の向こう、<br>重慶の味。</h1>
+        <p class="hero-copy">花椒の香り、唐辛子の辛み。<br>東京で、本場・重慶の火鍋を囲むひととき。</p>
+        <div class="hero-actions">
+          <a class="button button-red" href="#menu">お品書き</a>
+          <a class="button button-line" href="#courses">食べ放題を比べる</a>
+        </div>
+      </div>
+      <div class="hero-bottom frame">
+        <a class="down" href="#hinabe">樓上について<span aria-hidden="true"></span></a>
+        <span class="image-note">写真はイメージです</span>
+      </div>
+    </section>
+
+    <section id="hinabe" class="story section-pad" aria-labelledby="story-title">
+      <div class="frame">
+        <div class="brand-opening" data-reveal>
+          <div>
+            <p class="eyebrow"><i></i> 樓上について</p>
+            <h2 id="story-title">ひとつの鍋を、<br>みんなで囲む。</h2>
+          </div>
+          <div class="brand-prose">
+            <p>鍋が煮立つと、花椒の香りがふわりと立ちのぼる。牛脂のコクに唐辛子の辛みが重なる、重慶ならではの火鍋です。樓上では、その土地で親しまれる味を、東京の食卓でお楽しみいただけます。</p>
+            <p>二つのスープを味わう鴛鴦鍋。小さな区画ごとに具材を煮る九宮格。秘伝牛肉や牛センマイ、エビつみれを選んで鍋を囲めば、ひと口ごとに違う香りと食感が広がります。</p>
+            <p>「次は、何を入れよう」。そんなひと言から会話が弾むのも、火鍋の楽しさ。親しい人と鍋を囲み、それぞれの好みを見つけながら、ゆっくりとお召し上がりください。</p>
+          </div>
+        </div>
+        <figure class="brand-feature">
+          <img src="assets/hotpot-table.webp" alt="鴛鴦鍋を囲む肉や野菜の盛り合わせ" width="1500" height="1000" loading="lazy">
+          <div class="feature-seal" aria-hidden="true"><img src="assets/brand-mark.png" alt="" width="209" height="482" loading="lazy"></div>
+          <figcaption>写真はイメージです</figcaption>
+        </figure>
+        <div class="brand-guide">
+          <h3>火鍋の楽しみ方</h3>
+          <div class="food-details">
+            <details name="hinabe-guide" open>
+              <summary>スープを選ぶ</summary>
+              <p>しびれる辛さを楽しむなら牛油麻辣。鴛鴦鍋なら、麻辣ときのこやトマトなど、二つのスープを食べ比べられます。</p>
+            </details>
+            <details name="hinabe-guide">
+              <summary>好みの具材を合わせる</summary>
+              <p>薄切りの牛肉やラム肉に、野菜やきのこを。コリコリとした牛センマイや、弾力のあるエビつみれも火鍋によく合います。</p>
+            </details>
+            <details name="hinabe-guide">
+              <summary>つけだれと、締めの一品</summary>
+              <p>お好みのつけだれで味を変えながら、最後は麺やご飯で。スープを含んだ麺も、火鍋の楽しみのひとつです。</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="specialties" class="specialties section-pad" aria-labelledby="specialties-title">
+      <div class="frame">
+        <div class="section-heading" data-reveal>
+          <div>
+            <p class="eyebrow"><i></i> お品書きから</p>
+            <h2 id="specialties-title">樓上の名物</h2>
+          </div>
+          <p>二色のスープを囲み、好みの具材を一皿ずつ。<br>火鍋のあとは、冷たい甘味でひと休み。</p>
+        </div>
+        <div class="specialty-grid">
+          <article class="specialty specialty-lead" data-reveal>
+            <figure>
+              <img src="assets/yinyang-pot.webp" alt="赤い麻辣と淡い色のスープが並ぶ鴛鴦鍋" width="1500" height="1000" loading="lazy">
+              <figcaption>写真はイメージです</figcaption>
+            </figure>
+            <div class="specialty-copy">
+              <h3>鴛鴦鍋</h3>
+              <p>麻辣のしびれと香りを、もう一つのスープのやわらかな味わいと食べ比べ。きのこやトマトとの組み合わせもお楽しみいただけます。</p>
+              <a class="text-link" href="#menu-broth">鍋とスープを見る</a>
+            </div>
+          </article>
+          <div class="specialty-list">
+            <article class="specialty" data-reveal>
+              <figure>
+                <img src="assets/mala-beef.webp" alt="唐辛子を合わせた山椒秘伝牛肉" width="1500" height="1000" loading="lazy">
+                <figcaption>写真はイメージです</figcaption>
+              </figure>
+              <div class="specialty-copy">
+                <h3>山椒秘伝牛肉</h3>
+                <p>山椒の香りをまとった牛肉。麻辣のスープで、しびれと肉のうまみを重ねて。</p>
+                <a class="text-link" href="#menu-meat">肉と重慶名物を見る</a>
+              </div>
+            </article>
+            <article class="specialty" data-reveal>
+              <figure>
+                <img src="assets/shrimp-paste.webp" alt="鍋に入れる前のエビつみれ" width="1500" height="1000" loading="lazy">
+                <figcaption>写真はイメージです</figcaption>
+              </figure>
+              <div class="specialty-copy">
+                <h3>エビつみれ</h3>
+                <p>ひと口ずつ鍋に落とし、ぷりっとした弾力とエビの甘みを楽しむ具材。</p>
+                <a class="text-link" href="#menu-seafood">魚介と野菜を見る</a>
+              </div>
+            </article>
+            <article class="specialty" data-reveal>
+              <figure>
+                <img src="assets/osmanthus-douhua.webp" alt="金木犀の蜜がかかった豆花" width="1500" height="1000" loading="lazy">
+                <figcaption>写真はイメージです</figcaption>
+              </figure>
+              <div class="specialty-copy">
+                <h3>金木犀の冷たい豆花</h3>
+                <p>なめらかな豆花に、金木犀のほのかな香り。辛い鍋を楽しんだあとの一品に。</p>
+                <a class="text-link" href="#menu-drinks">甘味とお飲み物を見る</a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <a class="button button-line specialty-gallery" href="#photos">料理ギャラリーを見る</a>
+      </div>
+    </section>
+
+    <section id="guide" class="first-visit section-pad" aria-labelledby="guide-title">
+      <div class="frame guide-grid">
+        <div class="guide-intro" data-reveal>
+          <p class="eyebrow"><i></i> 火鍋の選び方</p>
+          <h2 id="guide-title">初めての方へ</h2>
+          <p>お好きな味わいから、スープと具材の組み合わせを見つけてみませんか。</p>
+        </div>
+        <div class="guide-main" data-reveal>
+          <div class="guide-tabs" data-tabset aria-label="味わいで組み合わせを選ぶ">
+            <a id="guide-tab-mala" href="#guide-mala">しびれを楽しみたい</a>
+            <a id="guide-tab-mild" href="#guide-mild">まろやかさも楽しみたい</a>
+          </div>
+          <div class="guide-panel" id="guide-mala">
+            <h3>牛油麻辣スープと重慶の具材</h3>
+            <p>花椒のしびれと牛脂のコクを楽しむなら牛油麻辣。山椒秘伝牛肉や牛センマイを合わせて、香りと食感の違いを味わえます。</p>
+            <a class="text-link" href="#menu-broth">鍋とスープを見る</a>
+          </div>
+          <div class="guide-panel" id="guide-mild">
+            <h3>鴛鴦鍋で、二つの味を</h3>
+            <p>麻辣ときのこ、または麻辣とトマトの組み合わせ。エビつみれや野菜をそれぞれのスープに入れ、味の違いを楽しめます。</p>
+            <a class="text-link" href="#menu-broth">鍋とスープを見る</a>
+          </div>
+          <p class="guide-note">スープや具材の取り扱いは店舗にご確認ください。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" class="courses section-pad" aria-labelledby="courses-title">
+      <div class="frame">
+        <div class="section-heading" data-reveal>
+          <div>
+            <p class="eyebrow"><i></i> コースのご案内</p>
+            <h2 id="courses-title">火鍋食べ放題</h2>
+          </div>
+          <p>3つのコースの品数と内容を比較できます。<br>コースを選ぶと、詳しい内容をご覧いただけます。</p>
+        </div>
+
+        <div class="course-tabs" data-tabset aria-label="食べ放題コースを選ぶ">
+          <a id="tab-1" href="#course-1">
+            <span class="tier-name">お手軽</span><span class="tier-count">68品</span>
+            <span class="tier-price">3,680<small>円</small></span><span class="tier-tax">税込</span>
+            <span class="tier-summary">肉・野菜・豆腐などの定番具材</span>
+          </a>
+          <a id="tab-2" href="#course-2">
+            <span class="tier-name">スタンダード</span><span class="tier-count">88品</span>
+            <span class="tier-price">4,680<small>円</small></span><span class="tier-tax">税込</span>
+            <span class="tier-summary">牛センマイ・鴨の腸などの重慶名物</span>
+          </a>
+          <a id="tab-3" href="#course-3">
+            <span class="tier-name">プレミアム</span><span class="tier-count">108品</span>
+            <span class="tier-price">5,980<small>円</small></span><span class="tier-tax">税込</span>
+            <span class="tier-summary">A5ランク和牛・手切りラム肉</span>
+          </a>
+        </div>
+
+        <div class="course-panel" id="course-1">
+          <figure>
+            <img src="assets/course-1.webp" width="977" height="730" loading="lazy" alt="定番の火鍋具材と二色のスープのイメージ">
+            <figcaption>写真はイメージです</figcaption>
+          </figure>
+          <div class="course-body">
+            <p class="course-count">全 <strong>68</strong> 品</p>
+            <h3>お手軽食べ放題コース</h3>
+            <p class="price">3,680<span>円</span><small>（税込）</small></p>
+            <p class="course-description">お肉や野菜、きのこ、豆腐など、定番の火鍋具材を楽しむコース。</p>
+            <div class="course-actions">
+              <a class="button button-red" href="#shops" data-reserve="お手軽食べ放題コース">電話予約</a>
+              <a class="text-link" href="assets/poster-1.webp" data-poster>コースポスターを見る</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="course-panel" id="course-2">
+          <figure>
+            <img src="assets/course-2.webp" width="976" height="660" loading="lazy" alt="牛センマイと麻辣火鍋のイメージ">
+            <figcaption>写真はイメージです</figcaption>
+          </figure>
+          <div class="course-body">
+            <p class="course-count">全 <strong>88</strong> 品</p>
+            <h3>スタンダード食べ放題コース</h3>
+            <p class="price">4,680<span>円</span><small>（税込）</small></p>
+            <p class="course-description">牛センマイ、鴨の腸、麻辣牛肉、鴨の血豆腐など、重慶名物を堪能できるコース。</p>
+            <div class="course-actions">
+              <a class="button button-red" href="#shops" data-reserve="スタンダード食べ放題コース">電話予約</a>
+              <a class="text-link" href="assets/poster-2.webp" data-poster>コースポスターを見る</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="course-panel" id="course-3">
+          <figure>
+            <img src="assets/course-3.webp" width="981" height="567" loading="lazy" alt="和牛とラム肉、海鮮、火鍋のイメージ">
+            <figcaption>写真はイメージです</figcaption>
+          </figure>
+          <div class="course-body">
+            <p class="course-count">全 <strong>108</strong> 品</p>
+            <h3>プレミアム食べ放題コース</h3>
+            <p class="price">5,980<span>円</span><small>（税込）</small></p>
+            <p class="course-description">スタンダードコースの全品に、A5ランク和牛や手切りラム肉などの追加メニューを加えたコース。</p>
+            <div class="course-actions">
+              <a class="button button-red" href="#shops" data-reserve="プレミアム食べ放題コース">電話予約</a>
+              <a class="text-link" href="assets/poster-3.webp" data-poster>コースポスターを見る</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="course-conditions">
+          <div><span>ご利用時間</span><strong>120分制</strong><small>（ラストオーダー90分）</small></div>
+          <div><span>飲み放題</span><strong>＋1,580円</strong><small>（税込）</small></div>
+        </div>
+        <p class="fine-print">食べ放題の実施店舗とご利用条件は、ご予約時に各店舗へご確認ください。</p>
+      </div>
+    </section>
+
+    <section id="menu" class="menu section-pad" aria-labelledby="menu-title">
+      <div class="frame">
+        <div class="section-heading" data-reveal>
+          <div>
+            <p class="eyebrow"><i></i> 単品料理</p>
+            <h2 id="menu-title">お品書き</h2>
+          </div>
+          <p>鍋とスープを選び、お好みの具材を一皿ずつ。<br>前菜から締めの一品、甘味や中国酒まで。</p>
+        </div>
+        <div class="menu-tabs" data-tabset aria-label="単品料理の種類を選ぶ">
+          <a id="menu-tab-broth" href="#menu-broth">鍋・スープ</a>
+          <a id="menu-tab-meat" href="#menu-meat">肉・重慶名物</a>
+          <a id="menu-tab-seafood" href="#menu-seafood">魚介・野菜</a>
+          <a id="menu-tab-sides" href="#menu-sides">前菜・締め</a>
+          <a id="menu-tab-drinks" href="#menu-drinks">甘味・お飲み物</a>
+        </div>
+        <div class="menu-panel" id="menu-broth">
+          <figure class="menu-photo">
+            <img src="assets/yinyang-pot.webp" alt="麻辣と白湯の二色に仕切った鴛鴦鍋" width="1500" height="1000" loading="lazy">
+            <figcaption>写真はイメージです</figcaption>
+          </figure>
+          <div class="menu-body">
+            <h3>鍋とスープを選ぶ</h3>
+            <dl class="menu-list">
+              <div><dt>牛油麻辣スープ</dt><dd>牛脂のコクに、唐辛子の辛みと花椒の香り。</dd></div>
+              <div><dt>鴛鴦鍋</dt><dd>麻辣ときのこ、麻辣とトマトなど、二種のスープを一つの鍋で。</dd></div>
+              <div><dt>九宮格</dt><dd>九つに仕切った重慶ならではの鍋。</dd></div>
+              <div><dt>きのこスープ</dt><dd>きのこの香りとうまみを味わうスープ。</dd></div>
+              <div><dt>牛骨スープ</dt><dd>牛骨のうまみを楽しむスープ。</dd></div>
+              <div><dt>酸辣スープ</dt><dd>酸味と辛みを合わせたスープ。</dd></div>
+            </dl>
+          </div>
+        </div>
+        <div class="menu-panel" id="menu-meat">
+          <figure class="menu-photo">
+            <img src="assets/mala-beef.webp" alt="赤と緑の唐辛子を合わせた山椒秘伝牛肉" width="1500" height="1000" loading="lazy">
+            <figcaption>写真はイメージです</figcaption>
+          </figure>
+          <div class="menu-body">
+            <h3>肉と重慶の名物</h3>
+            <dl class="menu-list">
+              <div><dt>樓上秘伝牛肉</dt><dd>樓上の名を冠した、下味付きの牛肉。</dd></div>
+              <div><dt>山椒秘伝牛肉</dt><dd>山椒のしびれと香りを利かせた牛肉。</dd></div>
+              <div><dt>秘伝手切りラム肉</dt><dd>火鍋に合わせた手切りのラム肉。</dd></div>
+              <div><dt>牛センマイ</dt><dd>歯切れのよい食感が特徴の牛の胃袋。</dd></div>
+              <div><dt>鴨の腸</dt><dd>コリコリとした食感を楽しむ重慶の具材。</dd></div>
+              <div><dt>鴨の血豆腐</dt><dd>鴨の血を固めた、なめらかな食感の具材。</dd></div>
+            </dl>
+          </div>
+        </div>
+        <div class="menu-panel" id="menu-seafood">
+          <figure class="menu-photo">
+            <img src="assets/vegetable-basket.webp" alt="青菜やれんこんの野菜盛り合わせ" width="1500" height="1000" loading="lazy">
+            <figcaption>写真はイメージです</figcaption>
+          </figure>
+          <div class="menu-body">
+            <h3>魚介、野菜、豆製品</h3>
+            <dl class="menu-list">
+              <div><dt>エビつみれ</dt><dd>エビの甘みと弾力を味わう鍋の具。</dd></div>
+              <div><dt>ホタテ</dt><dd>貝柱の甘みとうまみを楽しめます。</dd></div>
+              <div><dt>カキ</dt><dd>海の風味をスープに添える一皿。</dd></div>
+              <div><dt>野菜盛り合わせ</dt><dd>数種の野菜を、肉や魚介と一緒に。</dd></div>
+              <div><dt>きのこ盛り合わせ</dt><dd>香りや食感の異なるきのこをひと皿に。</dd></div>
+              <div><dt>棒湯葉</dt><dd>スープを含ませて楽しむ豆製品。</dd></div>
+            </dl>
+          </div>
+        </div>
+        <div class="menu-panel" id="menu-sides">
+          <figure class="menu-photo">
+            <img src="assets/handmade-noodles.webp" alt="鍋に入れる前の手作りラーメンの麺" width="1500" height="1000" loading="lazy">
+            <figcaption>写真はイメージです</figcaption>
+          </figure>
+          <div class="menu-body">
+            <h3>前菜から、鍋の締めまで</h3>
+            <dl class="menu-list">
+              <div><dt>たたききゅうり</dt><dd>歯ざわりのよい、さっぱりとした前菜。</dd></div>
+              <div><dt>棒湯葉の麻辣和え</dt><dd>湯葉をしびれる辛さの味つけで。</dd></div>
+              <div><dt>ピータン豆腐</dt><dd>ピータンのコクを冷たい豆腐とともに。</dd></div>
+              <div><dt>手作りラーメン</dt><dd>鍋のスープで味わう締めの麺。</dd></div>
+              <div><dt>中華そうめん</dt><dd>つるりとした口当たりの細麺。</dd></div>
+              <div><dt>揚州炒飯</dt><dd>鍋と一緒に楽しめる中華の定番ご飯。</dd></div>
+            </dl>
+          </div>
+        </div>
+        <div class="menu-panel" id="menu-drinks">
+          <figure class="menu-photo">
+            <img src="assets/osmanthus-douhua.webp" alt="金木犀の蜜をかけた冷たい豆花" width="1500" height="1000" loading="lazy">
+            <figcaption>写真はイメージです</figcaption>
+          </figure>
+          <div class="menu-body">
+            <h3>甘味とお飲み物</h3>
+            <dl class="menu-list">
+              <div><dt>金木犀の冷たい豆花</dt><dd>豆乳のやわらかな甘味に金木犀が香ります。</dd></div>
+              <div><dt>マンゴーとココナッツの冷たい豆花</dt><dd>果実の甘みとココナッツのまろやかさ。</dd></div>
+              <div><dt>黒砂糖揚げ餅</dt><dd>香ばしい揚げ餅に黒砂糖のコク。</dd></div>
+              <div><dt>汾酒</dt><dd>澄んだ香りを楽しむ中国の白酒。</dd></div>
+              <div><dt>紹興酒</dt><dd>火鍋によく合う、芳醇な中国の醸造酒。</dd></div>
+              <div><dt>酸梅湯</dt><dd>甘酸っぱい中国の梅の飲み物。</dd></div>
+            </dl>
+          </div>
+        </div>
+        <div class="menu-foot">
+          <p class="fine-print">掲載は単品料理の一例です。取り扱い・価格は、ご利用の店舗にご確認ください。</p>
+          <details class="menu-sources">
+            <summary>店舗別のお品書き</summary>
+            <div>
+              <a class="text-link" href="https://tabelog.com/tokyo/A1312/A131204/13263004/dtlmenu/" target="_blank" rel="noopener">小岩店の公開メニュー</a>
+              <a class="text-link" href="https://tabelog.com/tokyo/A1311/A131101/13294899/dtlmenu/" target="_blank" rel="noopener">上野店の公開メニュー</a>
+              <a class="text-link" href="https://www.hotpepper.jp/strJ004678042/food/" target="_blank" rel="noopener">池袋店の公開メニュー</a>
+              <a class="text-link" href="tel:0366793629">高田馬場店に電話で確認</a>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="photos" class="photo-section section-pad" aria-labelledby="photos-title">
+      <div class="frame">
+        <div class="section-heading" data-reveal>
+          <h2 id="photos-title">料理ギャラリー</h2>
+          <p>お好きな料理を選んでご覧ください。<br>画像をタップすると拡大できます。</p>
+        </div>
+        <div class="gallery" data-gallery>
+          <figure class="gallery-feature">
+            <a class="gallery-preview centered-photo" href="assets/chongqing-pot.webp" data-gallery-open aria-label="重慶火鍋の画像を拡大">
+              <img id="gallery-image" src="assets/chongqing-pot.webp" alt="重慶火鍋" width="1500" height="1000" loading="lazy">
+            </a>
+            <figcaption class="gallery-caption">
+              <div><h3 id="gallery-name">重慶火鍋</h3><span class="gallery-note">写真はイメージです</span></div>
+              <div class="gallery-controls" hidden>
+                <button type="button" class="button button-line" data-gallery-step="-1">前の写真</button>
+                <p class="gallery-count" data-gallery-count aria-live="polite"></p>
+                <button type="button" class="button button-line" data-gallery-step="1">次の写真</button>
+              </div>
+            </figcaption>
+          </figure>
+          <nav class="gallery-choices" aria-label="表示する料理を選ぶ">
+            <a class="gallery-choice" href="assets/chongqing-pot.webp" aria-current="true">
+              <div class="gallery-thumb centered-photo">
+                <img src="assets/chongqing-pot-thumb.webp" alt="" width="480" height="320" loading="lazy">
+              </div>
+              <span>重慶火鍋</span>
+            </a>
+            <a class="gallery-choice" href="assets/yinyang-pot.webp">
+              <img src="assets/yinyang-pot-thumb.webp" alt="" width="480" height="320" loading="lazy">
+              <span>鴛鴦鍋</span>
+            </a>
+            <a class="gallery-choice" href="assets/mala-beef.webp">
+              <img src="assets/mala-beef-thumb.webp" alt="" width="480" height="320" loading="lazy">
+              <span>山椒秘伝牛肉</span>
+            </a>
+            <a class="gallery-choice" href="assets/shrimp-paste.webp">
+              <img src="assets/shrimp-paste-thumb.webp" alt="" width="480" height="320" loading="lazy">
+              <span>エビつみれ</span>
+            </a>
+            <a class="gallery-choice" href="assets/handmade-noodles.webp">
+              <img src="assets/handmade-noodles-thumb.webp" alt="" width="480" height="320" loading="lazy">
+              <span>手作りラーメン</span>
+            </a>
+            <a class="gallery-choice" href="assets/osmanthus-douhua.webp">
+              <img src="assets/osmanthus-douhua-thumb.webp" alt="" width="480" height="320" loading="lazy">
+              <span>金木犀の冷たい豆花</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <section id="shops" class="shops section-pad" aria-labelledby="shops-title">
+      <div class="frame">
+        <div class="section-heading" data-reveal>
+          <div>
+            <p class="eyebrow"><i></i> 東京の4店舗</p>
+            <h2 id="shops-title">店舗案内・電話予約</h2>
+          </div>
+          <p>ご希望の店舗にお電話ください。<br>ご来店日時と人数をお伝えいただくとスムーズです。</p>
+        </div>
+
+        <div class="shop-grid">
+          <article class="shop" data-reveal>
+            <h3>小岩店</h3>
+            <p class="shop-station">JR小岩駅から徒歩約3分</p>
+            <address>東京都江戸川区西小岩1-27-6<br>YOSHIBLD 1F</address>
+            <p class="shop-hours">12:00〜23:00</p>
+            <div class="shop-actions">
+              <a class="button button-line shop-call" href="tel:0368069135"><span aria-hidden="true">☎</span> 03-6806-9135</a>
+              <a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=樓上重慶火鍋+小岩店+東京都江戸川区西小岩1-27-6" target="_blank" rel="noopener">地図を見る</a>
+              <a class="text-link" href="https://www.hotpepper.jp/strJ001277909/appearance/" target="_blank" rel="noopener">店内・外観</a>
+            </div>
+          </article>
+          <article class="shop" data-reveal>
+            <h3>上野店</h3>
+            <p class="shop-station">上野広小路駅から徒歩約1分</p>
+            <address>東京都台東区上野4-4-5<br>c-road Bldg 5F</address>
+            <p class="shop-hours">11:30〜23:00（ラストオーダー22:20）</p>
+            <div class="shop-actions">
+              <a class="button button-line shop-call" href="tel:0366946518"><span aria-hidden="true">☎</span> 03-6694-6518</a>
+              <a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=樓上重慶火鍋+上野店+東京都台東区上野4-4-5" target="_blank" rel="noopener">地図を見る</a>
+              <a class="text-link" href="https://www.hotpepper.jp/strJ003762992/appearance/" target="_blank" rel="noopener">店内・外観</a>
+            </div>
+          </article>
+          <article class="shop" data-reveal>
+            <h3>池袋店</h3>
+            <p class="shop-station">池袋駅西口（北）から徒歩約1分</p>
+            <address>東京都豊島区西池袋1-28-1<br>第二西池ビル 4F</address>
+            <p class="shop-hours">11:30〜23:00（ラストオーダー22:20）</p>
+            <p class="shop-seating">6〜8名様用の個室についてはお電話でご相談ください。</p>
+            <div class="shop-actions">
+              <a class="button button-line shop-call" href="tel:0366793625"><span aria-hidden="true">☎</span> 03-6679-3625</a>
+              <a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=樓上重慶火鍋+池袋店+東京都豊島区西池袋1-28-1" target="_blank" rel="noopener">地図を見る</a>
+              <a class="text-link" href="https://www.hotpepper.jp/strJ004678042/appearance/" target="_blank" rel="noopener">店内・外観</a>
+            </div>
+          </article>
+          <article class="shop" data-reveal>
+            <h3>高田馬場店</h3>
+            <p class="shop-station">JR高田馬場駅 早稲田口から徒歩約1分</p>
+            <address>東京都新宿区高田馬場4-7-5<br>3F</address>
+            <p class="shop-hours">営業時間は店舗へお問い合わせください。</p>
+            <div class="shop-actions">
+              <a class="button button-line shop-call" href="tel:0366793629"><span aria-hidden="true">☎</span> 03-6679-3629</a>
+              <a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=東京都新宿区高田馬場4-7-5" target="_blank" rel="noopener">地図を見る</a>
+            </div>
+          </article>
+        </div>
+        <p class="fine-print">営業時間は変更となる場合があります。ご来店前に店舗へご確認ください。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="frame footer-inner">
+      <a class="brand" href="#top" aria-label="樓上 重慶火鍋 トップ">
+        <img src="assets/brand-horizontal.png" alt="" width="412" height="205" loading="lazy"><span>重慶火鍋</span>
+      </a>
+      <div class="footer-links">
+        <a href="#menu">お品書き</a>
+        <a href="#shops">店舗案内</a>
+        <a href="https://www.instagram.com/roujyou/" target="_blank" rel="noopener">公式インスタグラム</a>
+        <a href="#top">ページの先頭へ</a>
+      </div>
+      <small>© 樓上 重慶火鍋</small>
+    </div>
+  </footer>
+
+  <button class="music-button button button-line" type="button" aria-pressed="false" hidden>
+    <span class="music-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span class="music-label">音楽を聴く</span>
+  </button>
+  <audio id="ambient-music" src="assets/ambient.mp3" preload="metadata" loop></audio>
+  <p id="music-status" class="visually-hidden" role="status"></p>
+
+  <dialog class="dialog" id="reservation" aria-labelledby="reservation-title">
+    <div class="dialog-head">
+      <h2 id="reservation-title">電話でご予約</h2>
+      <form method="dialog"><button class="close" aria-label="閉じる">×</button></form>
+    </div>
+    <p id="reservation-context" class="reservation-context" hidden></p>
+    <p>ご希望の店舗をお選びください。</p>
+    <div class="reservation-list"></div>
+  </dialog>
+
+  <dialog class="dialog poster-dialog" id="poster" aria-labelledby="poster-title">
+    <div class="dialog-head">
+      <h2 id="poster-title">コースポスター</h2>
+      <form method="dialog"><button class="close" aria-label="閉じる">×</button></form>
+    </div>
+    <img alt="">
+  </dialog>
+  <dialog class="dialog gallery-dialog" id="gallery-dialog" aria-labelledby="gallery-dialog-title">
+    <div class="dialog-head">
+      <h2 id="gallery-dialog-title">料理ギャラリー</h2>
+      <form method="dialog"><button class="close" aria-label="閉じる">×</button></form>
+    </div>
+    <figure>
+      <div class="gallery-dialog-visual">
+        <img id="gallery-dialog-image" alt="">
+      </div>
+      <figcaption class="gallery-note">写真はイメージです</figcaption>
+    </figure>
+    <div class="gallery-dialog-controls">
+      <button type="button" class="button button-line" data-gallery-step="-1">前の写真</button>
+      <p class="gallery-count" data-gallery-count aria-live="polite"></p>
+      <button type="button" class="button button-line" data-gallery-step="1">次の写真</button>
+    </div>
+  </dialog>
+</body>
+</html>
